@@ -1,0 +1,246 @@
+@charset "ISO-8859-1";
+.opacity{
+    opacity: 0.9;
+}
+
+.captionCenter {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.pictureLogin {
+	background-image: url('https://i.pinimg.com/originals/0e/61/13/0e6113bbc2abaab64f1a795559b113fc.jpg'); 
+    height: 100vh; 
+    margin: 0px; 
+    background-size: cover; 
+    background-position: top;
+}
+
+.pictureErrorLogin {
+	background-image: url('https://www.digipen.edu.sg/sites/default/files/public/img/academics/01-hero/digipen-singapore-continuing-education-cybersecurity-software-developer.jpg'); 
+    height: 100vh; 
+    margin: 0px; 
+    background-size: cover; 
+    background-position: top;
+}
+
+.pictureCorrectLogin {
+	background-image: url('https://images2.alphacoders.com/934/934992.jpg'); 
+    height: 100vh; 
+    margin: 0px; 
+    background-size: cover; 
+    background-position: top;
+}
+
+.pictureAccount {
+	background-image: url('https://miro.medium.com/max/1838/1*7nMNiJ3D9-SZg9bIQpPlGw.png'); 
+    height: 100vh; 
+    margin: 0px; 
+    background-size: cover; 
+    background-position: top;
+}
+
+.pictureHomepage {
+    background-image: url('../img/homepage.jpg'); 
+    height: 100vh; 
+    margin: 0px; 
+    background-size: cover; 
+    background-position: top;
+}
+
+.pictureListaAutori {
+    background-image: url('https://images.hdqwalls.com/wallpapers/joker-2019-movie-4k-g0.jpg'); 
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pictureListaFilm {
+    background-image: url('https://images.alphacoders.com/840/840053.jpg'); 
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pictureDettaglio {
+    background-image: url('https://images8.alphacoders.com/110/1106852.jpg'); 
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pictureDettaglioClasse {
+    background-image: url('https://wallpaperaccess.com/full/1975618.jpg'); 
+    height: 100vh; 
+    margin: 0px; 
+    background-size: cover; 
+    background-position: top;
+}
+
+.pictureError{
+    background-image: url('https://i.imgur.com/aUykb5ig.png'); 
+    height: 100vh; 
+    margin: 0px; 
+    background-size: cover; 
+    background-position: top;
+}
+
+.pictureGenerica {
+	background-image: url('https://i.pinimg.com/originals/84/f4/73/84f473fd7c7f5d4fbfff8d03259101ac.jpg?q=60'); 
+    height: 100vh; 
+    margin: 0px; 
+    background-size: cover; 
+    background-position: top;
+}
+
+.pictureAggiungi {
+	background-image: url('https://www.wallpaperkiss.com/wimg/b/103-1032524_big.jpg'); 
+    height: 100vh; 
+    margin: 0px; 
+    background-size: cover; 
+    background-position: top;
+}
+
+.pictureModifica {
+	background-image: url('https://www.wallpaperkiss.com/wimg/b/103-1032524_big.jpg'); 
+    height: 100vh; 
+    margin: 0px; 
+    background-size: cover; 
+    background-position: top;
+}
+
+.zIndex{
+	z-index: 100;
+}
+
+.zIndex2{
+	z-index: 80;
+}
+
+.zIndex3{
+	z-index: 60;
+}
+
+.scroll {
+    max-height: 90%;
+    overflow-y: auto;
+}
+
+/* EFFETTO FADE ID */
+body {
+	animation: fadeInAnimation ease 2s;
+	animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+	width: 100%;
+}
+
+.fadein {
+	animation: fadeInAnimation ease 1s;
+	animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.contenitore {
+	padding: 2rem 1rem;
+	padding-top: 100px;
+    margin-bottom: 2rem;
+    background-color: white;
+    border-radius: .3rem;
+}
+
+.container1 {
+    width: 100%;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-top: 100px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* EFFETTO ROTAZIONE IMG ON MOUSE */
+.hover-rotate {
+    overflow: hidden;
+    margin: 8px;
+    min-width: 240px;
+    max-width: 320px;
+    width: 100%;
+  }
+  
+  .hover-rotate img {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  
+  .hover-rotate:hover img {
+    transform: scale(1.3) rotate(5deg);
+  }
+
+  .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 300px;
+    caret-color:white;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
